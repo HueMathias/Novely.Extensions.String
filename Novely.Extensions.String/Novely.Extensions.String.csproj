@@ -5,15 +5,31 @@
 
 	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	<PackageId>Novely.Extensions.Strings</PackageId>
-	<Version>1.0.0</Version>
+	<Version>8.0.0</Version>
 	<Authors>Mathias Hue</Authors>
 	<Company>Novely</Company>
 	<Description>Extensions pratiques pour la manipulation et la validation des chaînes (string) avec support culturel.</Description>
 	<PackageTags>string;extension;validation;culture;regex;format;postalcode</PackageTags>
 	<RepositoryUrl>https://github.com/HueMathias/Novely.Extensions.String</RepositoryUrl>
-	<PackageLicenseExpression>MIT</PackageLicenseExpression>
-	<IncludeSymbols>true</IncludeSymbols>
-	<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	<PackageOutputPath>publish</PackageOutputPath>
+	<PackageLicenseFile>assets\LICENSE.txt</PackageLicenseFile>
+	<PackageIcon>assets\icon.png</PackageIcon>
+	<PackageReadmeFile>assets\README.md</PackageReadmeFile>
   </PropertyGroup>
 
+
+	<ItemGroup>
+		<None Update="assets\LICENSE.txt">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Update="assets\icon.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Update="assets\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
 </Project>

@@ -3,6 +3,7 @@
 *.vs
 **/bin
 **/obj
+**.nupkg
 
 # Object files
 *.o
