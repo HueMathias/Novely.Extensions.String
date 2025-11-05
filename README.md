@@ -1,0 +1,1 @@
+# Novely.Extensions.String
