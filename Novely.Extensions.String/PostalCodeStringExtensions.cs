@@ -12,7 +12,7 @@ public static partial class StringExtensions
     /// </summary>
     private static readonly Dictionary<string, string> postalCodePatterns = new()
     {
-        ["fr-fr"] = @"[0-9]{1}[0-9A-Za-z]{1}[0-9]{3}", // France
+        ["fr-fr"] = @"^[0-9]{1}[0-9A-Za-z]{1}[0-9]{3}$", // France
         ["en-ca"] = @"^[A-Za-z]\d[A-Za-z][ -]?\d[A-Za-z]\d$", // Canada : A1A 1A1 ou A1A-1A1
         ["en-us"] = @"^\d{5}(-\d{4})?$", // États-Unis : 5 chiffres + optionnel -4
         ["en-gb"] = @"^(GIR ?0AA|[A-Z]{1,2}\d[A-Z\d]? ?\d[ABD-HJLNP-UW-Z]{2})$", // Royaume-Uni : formats variés (simplifié)

@@ -10,7 +10,7 @@
 	<Company>Novely</Company>
 	<Description>Extensions pratiques pour la manipulation et la validation des chaînes (string) avec support culturel.</Description>
 	<PackageTags>string;extension;validation;culture;regex;format;postalcode</PackageTags>
-	<RepositoryUrl>https://github.com/yourcompany/Extensions.Strings</RepositoryUrl>
+	<RepositoryUrl>https://github.com/HueMathias/Novely.Extensions.String</RepositoryUrl>
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	<IncludeSymbols>true</IncludeSymbols>
 	<SymbolPackageFormat>snupkg</SymbolPackageFormat>
