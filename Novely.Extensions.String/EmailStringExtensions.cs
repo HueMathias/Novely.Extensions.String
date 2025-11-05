@@ -5,9 +5,9 @@ namespace Novely.Extensions.String;
 public static partial class StringExtensions
 {
     /// <summary>
-    /// Vérifie si la chaîne est une adresse e-mail valide.
+    /// Check if the string is a valid email address.
     /// </summary>
-    /// <param name="input">Chaîne à vérifier.</param>
+    /// <param name="input">Chain to be checked.</param>
     /// <returns><see langword="true"/> si l’adresse e-mail est valide, sinon <see langword="false"/>.</returns>
     public static bool IsEmail(this string input)
     {
