@@ -6,11 +6,11 @@ namespace Novely.Extensions.String;
 public static partial class StringExtensions
 {
     /// <summary>
-    /// Vérifie si la chaîne correspond à un numéro de téléphone valide pour une culture donnée.
+    /// Check whether the string corresponds to a valid phone number for a given culture.
     /// </summary>
-    /// <param name="input">Numéro à vérifier.</param>
-    /// <param name="culture">Culture à utiliser (ex: fr-FR, en-US). Si null, la culture actuelle est utilisée.</param>
-    /// <returns><see langword="true"/> si le numéro est valide pour la culture donnée, sinon <see langword="false"/>.</returns>
+    /// <param name="input">Number to be checked.</param>
+    /// <param name="culture">Culture to use (e.g., fr-FR, en-US). If null, the current culture is used.</param>
+    /// <returns><see langword="true"/>if the number is valid for the given crop, otherwise  <see langword="false"/>.</returns>
     public static bool IsPhoneNumber(this string input, CultureInfo? culture = null)
     {
         if (string.IsNullOrEmpty(input))

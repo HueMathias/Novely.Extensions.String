@@ -5,10 +5,10 @@ namespace Novely.Extensions.String;
 public static partial class StringExtensions
 {
     /// <summary>
-	/// Met la première lettre en majuscule.
+	///  Capitalizes the first letter.
 	/// </summary>
-	/// <param name="input">Chaîne de caractères</param>
-	/// <returns>La même chaîne de caractères avec la première lettre en majuscule.</returns>
+	/// <param name="input">string</param>
+	/// <returns>The same string with the first letter capitalized.</returns>
 	public static string FirstCharToUpper(this string input) =>
         input switch
         {
